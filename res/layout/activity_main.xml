@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <EditText
+        android:id="@+id/myUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textUri"
+        android:text="@string/default_url" />
+    
+    <EditText
+        android:id="@+id/maxDelay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="@string/default_max_delay" />
+    
+    <WebView
+    	android:id="@+id/webView"
+    	android:layout_width="fill_parent"
+    	android:layout_height="0dp"
+	/>
+    
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/initialStatus" />
+    
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/initialContent" />
+    
+    <Button
+        android:id="@+id/myButton_directsend" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_directsend"
+        android:onClick="myClickHandler_directsend"
+        />
+    
+    <Button
+        android:id="@+id/myButton_performance" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_performance"
+        android:onClick="myClickHandler_performance"
+        />
+    
+   <Button
+        android:id="@+id/myButton_moderate" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_moderate"
+        android:onClick="myClickHandler_moderate"
+        />
+        
+   <Button
+        android:id="@+id/myButton_powersaving" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_powersaving"
+        android:onClick="myClickHandler_powersaving"
+        />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SimpleDownload</string>
+    <string name="initialStatus">Choose an option to start download:</string>
+    <string name="initialContent"></string>
+    <string name="default_url">http://www.cnn.com</string>
+    <string name="default_max_delay">60</string>
+	<string name="service_name">SsService</string>
+	
+	<string name="button_directsend">Download directly</string>
+	<string name="button_performance">Download performance</string>
+	<string name="button_moderate">Download moderate</string>
+	<string name="button_powersaving">Download powersaving</string>
+	<string name="button_anysschange">Download when signal changes</string>
+</resources>
