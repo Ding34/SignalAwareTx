@@ -1,0 +1,18 @@
+Signal Aware Transfer
+
+----------
+Simple app that
+
+1. Listen to signal strength changes
+
+2. Defer sending during poor signal strengths
+   Only above certain signal strength threshold
+   will the transfer be allowed.
+
+----------
+Three deferring policies, corresponding to different
+signal strength threshold value:
+
+1. Performance: allow transfer under relatively low signal
+2. Moderate: allow transfer under moderate signal
+3. Powersaving: allow transfer only under good signal
